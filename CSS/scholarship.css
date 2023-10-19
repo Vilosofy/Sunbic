@@ -1,0 +1,317 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body
+{
+    background: #0077b6;
+}
+
+.header
+{
+    width: 100%;
+    height: 50vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/Opening\ Image/Scholarship.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.header h1
+{
+    font-family: 'Josefin Sans', sans-serif;
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 20%;
+}
+
+/* navbar */
+nav
+{
+    z-index: 999;
+    position: fixed;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2%;
+}
+
+nav img
+{
+    position: relative;
+    width: 300px;
+    margin-left: 15%;
+}
+
+.navigation-menu ul
+{
+    margin: 40px;
+    align-items: center;
+    transition: 1s;
+}
+
+.navigation-menu ul li
+{
+    list-style: none;
+    display: inline-block;
+    padding: 1% 50px;
+    position: relative;
+}
+
+.navigation-menu ul li a
+{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;  
+    transition: 0.5s ease-in-out;
+}
+
+.navigation-menu ul li a:hover
+{
+    color: #42c2ff;
+    background: white;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.scrollColor ul
+{
+    background-color: #42c2ff;
+    color: white;
+    border-radius: 50px;
+    transition: all 1s;
+    background: #42c2ff;
+    border-radius: 50px;
+    padding: 25px;   
+}
+
+/* Section 2 */
+.section2
+{
+    text-align: center;
+    background: white;
+    height: 80vh;
+}
+
+.section2-title
+{
+    padding-top: 5%;
+    padding-left: 5%;
+}
+
+.section2-title h1
+{
+    font-size: 35px;
+}
+
+.section2-content
+{
+    display: flex;
+    flex-direction: column;
+    margin-top: 3%;
+    margin-left: 3%;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.section2-content img
+{
+    width: 30%;
+    border-radius: 20px;
+}
+
+.section2-content p
+{
+    margin-top: 2%;
+    font-size: 15px;
+}
+
+/* Section 3 */
+.section3
+{
+    text-align: center;
+    background: #0077b6;
+    height: 80vh;
+}
+
+.section3-title
+{
+    padding-top: 5%;
+    padding-left: 5%;
+}
+
+.section3-title h1
+{
+    font-size: 35px;
+    color: white;
+}
+
+.section3-content
+{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 3%;
+    margin-left: 3%;
+    justify-content: center;
+    
+}
+
+.section3-content img
+{
+    width: 30%;
+    border-radius: 20px;
+}
+
+.section3-content p
+{
+    margin-top: 2%;
+    color: white;
+    font-size: 15px;
+}
+
+/* Section 4 */
+.section4
+{
+    text-align: center;
+    background: white;
+    height: 80vh;
+}
+
+.section4-title
+{
+    padding-top: 5%;
+    padding-left: 5%;
+}
+
+.section4-title h1
+{
+    font-size: 35px;
+}
+
+.section4-content
+{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 3%;
+    margin-left: 3%;
+    justify-content: center;
+    
+}
+
+.section4-content img
+{
+    width: 30%;
+    border-radius: 20px;
+}
+
+.section4-content p
+{
+    margin-top: 2%;
+    font-size: 15px;
+}
+
+/* Section 5 */
+.section5
+{
+    text-align: center;
+    background: #0077b6;
+    height: 80vh;
+    margin-bottom: 1%;
+}
+
+.section5-title
+{
+    padding-top: 5%;
+    padding-left: 5%;
+}
+
+.section5-title h1
+{
+    font-size: 35px;
+    color: white;
+}
+
+.section5-content
+{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 3%;
+    margin-left: 3%;
+    justify-content: center;
+    
+}
+
+.section5-content img
+{
+    width: 30%;
+    border-radius: 20px;
+}
+
+.section5-content p
+{
+    margin-top: 2%;
+    font-size: 15px;
+    color: white;
+}
+
+/* Section 6 */
+.section6
+{
+    width: 100%;
+    height: 6vh;
+    background: #2b3440;
+    text-align: center;
+    margin-bottom: 1%;
+}
+
+.section6-content
+{
+    padding-top: 1%;
+}
+
+.section6 a
+{
+    
+    font-size: 20px;
+    color: white;
+}
+
+.section6 a:hover
+{
+    color: #42c2ff;
+}
+
+/* Footer */
+.footer
+{
+    background: #2b3440;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 1%;
+}
+
+.footer h3
+{
+    font-size: 20px;
+    color: #42c2ff;
+    padding-top: 2%;
+    margin-bottom: 1%;
+}
+
+.footer p
+{
+    color: white;
+    font-size: 12px;
+}
+
+.social-media img
+{
+    margin: 0.5%;
+    width: 1.5%;
+    margin-bottom: 1.5%;
+}

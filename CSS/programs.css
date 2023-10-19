@@ -1,0 +1,368 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.header
+{
+    width: 100%;
+    height: 50vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/Opening\ Image/Programs.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.header h1
+{
+    font-family: 'Josefin Sans', sans-serif;
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 20%;
+}
+
+/* navbar */
+nav
+{
+    z-index: 999;
+    position: fixed;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2%;
+}
+
+nav img
+{
+    position: relative;
+    width: 300px;
+    margin-left: 15%;
+}
+
+.navigation-menu ul
+{
+    margin: 40px;
+    align-items: center;
+    transition: 1s;
+}
+
+.navigation-menu ul li
+{
+    list-style: none;
+    display: inline-block;
+    padding: 1% 50px;
+    position: relative;
+}
+
+.navigation-menu ul li a
+{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;  
+    transition: 0.5s ease-in-out;
+}
+
+.navigation-menu ul li a:hover
+{
+    color: #42c2ff;
+    background: white;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.scrollColor ul
+{
+    background-color: #42c2ff;
+    color: white;
+    border-radius: 50px;
+    transition: all 1s;
+    background: #42c2ff;
+    border-radius: 50px;
+    padding: 25px;   
+}
+
+/* Section 2 */
+.section2
+{
+    width: 100%;
+    height: 80vh;
+    text-align: center;
+}
+
+.section2-title
+{
+    text-align: center;
+    margin-top: 8%;
+    margin-bottom: 2%;
+    font-size: 25px;
+    color: orange;
+}
+
+.section2-row1
+{
+    border: 8px solid #42c2ff;
+    background: #0077b6;
+    border-left: 0px;
+    border-right: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section2-border1
+{
+    background: orange;
+    border: 5px dashed white;
+    border-radius: 20px;
+    margin-right: 5%;
+    width: 20%;
+}
+
+.section2-border2
+{
+    background: orange;
+    border: 5px dashed white;
+    border-radius: 20px;
+    margin-left: 5%;
+    width: 20%;
+}
+
+.section2-text1, .section2-text2
+{
+    color: white;
+    margin: 10%;
+}
+
+.section2-text1 p
+{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    margin-bottom: 10%;
+}
+
+.section2-text2 p
+{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    margin-bottom: 10%;
+}
+
+.section2 img
+{
+    margin-top: 10%;
+    margin-bottom: 10%;
+    border-radius: 20px;
+}
+
+/* Section 3 */
+.section3
+{
+    width: 100%;
+    height: 80vh;
+    text-align: center;
+}
+
+.section3-title
+{
+    margin-top: 8%;
+    margin-bottom: 2%;
+    font-size: 25px;
+    color: seagreen;
+}
+
+.section3-row1
+{
+    border: 8px solid #42c2ff;
+    background: #0077b6;
+    border-left: 0px;
+    border-right: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section3-border1
+{
+    background: seagreen;
+    border: 5px dashed white;
+    border-radius: 20px;
+    margin-right: 5%;
+    width: 20%;
+}
+
+.section3-border2
+{
+    background: seagreen;
+    border: 5px dashed white;
+    border-radius: 20px;
+    margin-left: 5%;
+    width: 20%;
+}
+
+.section3-text1, .section3-text2
+{
+    color: white;
+    margin: 10%;
+}
+
+.section3-text1 p
+{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    margin-bottom: 10%;
+}
+
+.section3-text2 p
+{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    margin-bottom: 10%;
+}
+
+.section3 img
+{
+    margin-top: 10%;
+    margin-bottom: 10%;
+    border-radius: 20px;
+}
+
+/* Section 4 */
+.section4
+{
+    width: 100%;
+    height: 60vh;
+    text-align: center;
+    margin-bottom: 8%;
+}
+
+.section4-title
+{
+    margin-top: 8%;
+    margin-bottom: 2%;
+    font-size: 25px;
+    color: #0077b6;
+    color: violet;
+}
+
+.section4-row1
+{
+    border: 8px solid #42c2ff;
+    background: #0077b6;
+    border-left: 0px;
+    border-right: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section4-border1
+{
+    background: violet;
+    border: 5px dashed white;
+    border-radius: 20px;
+    margin-right: 5%;
+    width: 20%;
+}
+
+.section4-border2
+{
+    background: violet;
+    border: 5px dashed white;
+    border-radius: 20px;
+    margin-left: 5%;
+    width: 20%;
+}
+
+.section4-text1, .section4-text2
+{
+    color: white;
+    margin: 10%;
+}
+
+.section4-text1 p
+{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    margin-bottom: 10%;
+}
+
+.section4-text2 p
+{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    margin-bottom: 10%;
+}
+
+.section4 img
+{
+    margin-top: 10%;
+    margin-bottom: 10%;
+    border-radius: 20px;
+}
+
+.hr
+{
+    width: 100%;
+    height: 1vh;
+    background: #42c2ff;
+}
+
+/* Section 5 */
+.section5
+{
+    width: 100%;
+    height: 6vh;
+    background: #2b3440;
+    text-align: center;
+    margin-bottom: 1%;
+}
+
+.section5-content
+{
+    padding-top: 1%;
+}
+
+.section5 a
+{
+    font-family: 'Josefin Sans', sans-serif;   
+    font-size: 20px;
+    color: white;
+}
+
+.section5 a:hover
+{
+    color: #42c2ff;
+}
+
+/* Footer */
+.footer
+{
+    background: #2b3440;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 1%;
+}
+
+.footer h3
+{
+    font-size: 20px;
+    color: #42c2ff;
+    padding-top: 2%;
+    margin-bottom: 1%;
+}
+
+.footer p
+{
+    color: white;
+    font-size: 12px;
+}
+
+.social-media img
+{
+    margin: 0.5%;
+    width: 1.5%;
+    margin-bottom: 1.5%;
+}
